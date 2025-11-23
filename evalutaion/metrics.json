@@ -1,0 +1,91 @@
+{
+  "evaluation_summary": {
+    "total_checkpoints": 3,
+    "speaker_audio": "/home/ubuntu/sneh/output.wav",
+    "languages": [
+      "hi",
+      "en",
+      "guj"
+    ]
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "/home/ubuntu/sneh/XTTSv2-Finetuning-for-New-Languages/checkpoints/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3/best_model.pth",
+      "checkpoint_name": "GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model",
+      "config": "/home/ubuntu/sneh/XTTSv2-Finetuning-for-New-Languages/checkpoints/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3/config.json",
+      "vocab": "/home/ubuntu/sneh/XTTSv2-Finetuning-for-New-Languages/checkpoints/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3/XTTS_v2.0_original_model_files/vocab.json",
+      "speaker_audio": "/home/ubuntu/sneh/output.wav",
+      "languages": {
+        "hi": {
+          "latency_sec": 2.5358560449967626,
+          "audio_duration_sec": 6.08,
+          "rtf": 0.41708158634815173,
+          "audio_path": "/home/ubuntu/sneh/voicecraft-x/evalutaion/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model/hi/best_model/tts_hi.wav",
+          "speaker_similarity": 0.9638128876686096,
+          "mos": 3.0228707790374756,
+          "pesq": 1.0439473390579224,
+          "mcd": 108.44778442382812
+        },
+        "en": {
+          "latency_sec": 1.2212128060054965,
+          "audio_duration_sec": 6.165333333333334,
+          "rtf": 0.1980773366142133,
+          "audio_path": "/home/ubuntu/sneh/voicecraft-x/evalutaion/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model/en/best_model/tts_en.wav",
+          "speaker_similarity": 0.9650866985321045,
+          "mos": 3.022963523864746,
+          "pesq": 1.618630290031433,
+          "mcd": 129.59628295898438
+        },
+        "guj": {
+          "latency_sec": 2.9480847590020858,
+          "audio_duration_sec": 7.381333333333333,
+          "rtf": 0.39939732103532594,
+          "audio_path": "/home/ubuntu/sneh/voicecraft-x/evalutaion/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model/guj/best_model/tts_guj.wav",
+          "speaker_similarity": 0.9569309949874878,
+          "mos": 3.0230259895324707,
+          "pesq": 1.0307409763336182,
+          "mcd": 115.39010620117188
+        }
+      }
+    },
+    {
+      "checkpoint": "/home/ubuntu/sneh/XTTSv2-Finetuning-for-New-Languages/checkpoints/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3/best_model_115524.pth",
+      "checkpoint_name": "GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model_115524",
+      "config": "/home/ubuntu/sneh/XTTSv2-Finetuning-for-New-Languages/checkpoints/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3/config.json",
+      "vocab": "/home/ubuntu/sneh/XTTSv2-Finetuning-for-New-Languages/checkpoints/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3/XTTS_v2.0_original_model_files/vocab.json",
+      "speaker_audio": "/home/ubuntu/sneh/output.wav",
+      "languages": {
+        "hi": {
+          "latency_sec": 2.4443366969935596,
+          "audio_duration_sec": 6.08,
+          "rtf": 0.4020290620055197,
+          "audio_path": "/home/ubuntu/sneh/voicecraft-x/evalutaion/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model_115524/hi/best_model_115524/tts_hi.wav",
+          "speaker_similarity": 0.9638128876686096,
+          "mos": 3.0228707790374756,
+          "pesq": 1.0439473390579224,
+          "mcd": 108.44778442382812
+        },
+        "en": {
+          "latency_sec": 1.245358940999722,
+          "audio_duration_sec": 6.165333333333334,
+          "rtf": 0.2019937728697646,
+          "audio_path": "/home/ubuntu/sneh/voicecraft-x/evalutaion/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model_115524/en/best_model_115524/tts_en.wav",
+          "speaker_similarity": 0.9650866985321045,
+          "mos": 3.022963523864746,
+          "pesq": 1.618630290031433,
+          "mcd": 129.59628295898438
+        },
+        "guj": {
+          "latency_sec": 2.99328061498818,
+          "audio_duration_sec": 7.381333333333333,
+          "rtf": 0.4055203145305518,
+          "audio_path": "/home/ubuntu/sneh/voicecraft-x/evalutaion/GPT_XTTS_FT-November-20-2025_05+30PM-8e59ec3_best_model_115524/guj/best_model_115524/tts_guj.wav",
+          "speaker_similarity": 0.9569309949874878,
+          "mos": 3.0230259895324707,
+          "pesq": 1.0307409763336182,
+          "mcd": 115.39010620117188
+        }
+      }
+    }
+  ]
+}

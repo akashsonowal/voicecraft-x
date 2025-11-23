@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-VoiceCraftXMetrics: Comprehensive TTS evaluation metrics class.
+AkaalTTSMetrics: Comprehensive TTS evaluation metrics class.
 
 This class combines functionality from evaluate_model.py and evaluate_tts_with_reference.py:
 1. Generates reference audio using Bhashini TTS API OR accepts existing reference audio paths directly
@@ -14,7 +14,7 @@ This class combines functionality from evaluate_model.py and evaluate_tts_with_r
 
 Example usage:
     # Initialize metrics class
-    metrics = VoiceCraftXMetrics(device="cuda:0", api_key="your-api-key")
+    metrics = AkaalTTSMetrics(device="cuda:0", api_key="your-api-key")
     
     # Option 1: Generate reference audio files from Bhashini API
     reference_audios = metrics.generate_all_reference_audios(
@@ -153,7 +153,7 @@ class AkaalTTSMetrics:
         default_api_key: str = "5Yknj5sVdr1hA4V7JoKrzISnVfnXl5iUCnbZ9NZTbUrcudoAOzq0fc6VzQF19iB9",
     ):
         """
-        Initialize VoiceCraftXMetrics.
+        Initialize AkaalTTSMetrics.
         
         Args:
             device: Device to use (e.g., 'cuda:0'). Auto-detects if None.
