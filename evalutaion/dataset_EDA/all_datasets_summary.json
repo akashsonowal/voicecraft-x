@@ -1,0 +1,47 @@
+{
+  "total_items": 28295,
+  "domains": {
+    "HEALTH": 19935,
+    "CONVERSATIONAL": 199,
+    "LOCAL CONVERSATION": 8161
+  },
+  "languages": {
+    "en": 2289,
+    "guj": 1086,
+    "bn": 1169,
+    "bho": 5803,
+    "chha": 4442,
+    "hi": 834,
+    "kn": 1447,
+    "mag": 2743,
+    "mai": 5474,
+    "mr": 2291,
+    "te": 717
+  },
+  "audio_statistics": {
+    "mean_duration": 7.459283281868146,
+    "median_duration": 7.1,
+    "std_duration": 2.7509155526148477,
+    "min_duration": 0.9,
+    "max_duration": 52.23002267573696
+  },
+  "text_statistics": {
+    "mean_length": 88.13182541084997,
+    "median_length": 86.0,
+    "std_length": 29.820272312510475,
+    "min_length": 15,
+    "max_length": 490
+  },
+  "snr_statistics": {
+    "mean": 41.84992703198625,
+    "median": 45.32895751127577,
+    "std": 12.672912727140533,
+    "min": -9.922073935370161,
+    "max": 66.2315296480636
+  },
+  "speech_rate": {
+    "mean_sec_per_char": 0.08499741194613336,
+    "std_sec_per_char": 0.010661363908643192
+  },
+  "vocabulary_size": 101688
+}
