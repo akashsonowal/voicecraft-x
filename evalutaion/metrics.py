@@ -150,7 +150,7 @@ class AkaalTTSMetrics:
         self,
         device: Optional[str] = None,
         api_key: Optional[str] = None,
-        default_api_key: str = "5Yknj5sVdr1hA4V7JoKrzISnVfnXl5iUCnbZ9NZTbUrcudoAOzq0fc6VzQF19iB9",
+        default_api_key: str = "",
     ):
         """
         Initialize AkaalTTSMetrics.
@@ -186,7 +186,7 @@ class AkaalTTSMetrics:
         Returns:
             True if successful, False otherwise
         """
-        url = "https://dhruva-api.bhashini.gov.in/services/inference/pipeline"
+        url = ""
         
         headers = {
             "Accept": "*/*",
